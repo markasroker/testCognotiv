@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin:0;
+  padding: 0;
+  background-image: url(../../public/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+*{
+  box-sizing: border-box;
+}
+.showtime .img-wrap img{
+  filter: grayscale(100%);
+  transition: all ease-in-out .3s;
+}
+.delaying{
+  overflow-x: hidden;
+}
+.delaying.shotime{
+  overflow-x: auto;
+}
+.main-img{
+  animation: moveImg .5s ;
+}
+
+@keyframes moveImg {
+  from {
+    top: -100%;
+    opacity: 0;
+  }
+  to {
+    left: 0%;
+    opacity: 1;
+  }
+}
