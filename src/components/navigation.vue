@@ -1,5 +1,5 @@
 <template>
-    <ul class="font-bold">
+    <ul class="font-bold z-50">
         <li><RouterLink to="/about">About Us</RouterLink></li>
         <li><RouterLink to="/product">Our Product</RouterLink></li>
         <li><RouterLink to="/contact">Contact Us</RouterLink></li>

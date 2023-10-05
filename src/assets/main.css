@@ -15,7 +15,7 @@ body{
 *{
   box-sizing: border-box;
 }
-.showtime .img-wrap img{
+.showtime .img-wrap .main-img{
   filter: grayscale(100%);
   transition: all ease-in-out .3s;
 }

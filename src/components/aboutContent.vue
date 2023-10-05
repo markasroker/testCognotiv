@@ -7,7 +7,7 @@
             </p>
         </div>
         <div class="btn-normal ml-auto mr-16 text-right mt-10">
-            <button class="bg-[#FFB800] relative rounded-lg w-52 h-16 text-2xl font-bold text-[#fff] ">Learn more</button>
+            <button class="bg-[#FFB800] relative rounded-lg w-52 h-16 text-2xl font-bold text-[#fff] hover:bg-[#C7C7C7] hover:text-[#7A7A7A]">Learn more</button>
         </div>
     </div>
 </template>

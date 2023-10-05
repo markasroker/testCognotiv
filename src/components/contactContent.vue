@@ -9,7 +9,7 @@
                 <stong class="text-4xl font-bold leading-normal">Protect your email<br/> address</stong>
                 <input placeholder="but not in here :)" class="mt-7 w-full rounded-md px-4 py-5 outline-none font-semibold text-2xl text-center">
             </div>
-            <button class="bg-[#FFB800] relative rounded-lg mt-6 h-16 text-2xl font-bold text-[#fff] w-full">Submit</button>
+            <button class="bg-[#FFB800] relative rounded-lg mt-6 h-16 text-2xl font-bold text-[#fff] w-full hover:bg-[#C7C7C7] hover:text-[#7A7A7A]">Submit</button>
         </div>
     </div>
 </template>
